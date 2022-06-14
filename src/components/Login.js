@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { TextField, Button, Container } from "@mui/material";
 
-const App = () => {
+const Login = () => {
   const navigate = useNavigate();
 
   const [state, setState] = useState({
@@ -62,4 +62,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default Login;
