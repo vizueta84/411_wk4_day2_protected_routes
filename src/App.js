@@ -1,8 +1,10 @@
-import React from 'react';
-import Navigation from './components/Navigation'
-import './App.css'
-import Router from './Router'
-import { BrowserRouter } from 'react-router-dom'
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+
+import Navigation from "./components/Navigation";
+import Router from "./Router";
+
+import "./App.css";
 
 function App() {
   return (
